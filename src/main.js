@@ -1,5 +1,6 @@
 import { scaleFactor } from "./constants";
 import { k } from "./kaboomCtx";
+import { displayDialogue } from "./utils";
 
 k.loadSprite("spritesheet", "./spritesheet.png", {
     sliceX: 39,
@@ -22,7 +23,7 @@ k.loadSprite("spritesheet", "./spritesheet.png", {
     const mapData = await (await fetch("./map.json")).json();
     const layers = mapData.layers;
 
-    const map = k.make([
+    const map = k.add([
         k.sprite("map"),
         k.pos(0),
         k.scale(scaleFactor)
@@ -60,12 +61,29 @@ k.loadSprite("spritesheet", "./spritesheet.png", {
                 if (boundary.name) {
                     player.onCollide(boundary.name, () => {
                         player.isInDialogue = true;
+                        displayDialogue("TODO", () => (player.isInDialogue = false ))
                     })
                 }
-
+            }
+            continue;
+        }
+        if(layer.name === "spawnpoints") {
+            for (const entity of layer.objects) {
+                if (entity.name === "player") {
+                    player.pos = k.vec2(
+                        (map.pos.x + entity.x) * scaleFactor,
+                        (map.pos.y + entity.y) * scaleFactor  
+                    );
+                    k.add(player);
+                    continue;
+                }
             }
         }
     }
+
+    k.onUpdate(() => {
+        k.setCamPos(player.pos.x, player.pos.y + 100);
+    })
  });
 
  k.go("main");
