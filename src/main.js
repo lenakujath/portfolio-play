@@ -6,12 +6,12 @@ k.loadSprite("spritesheet", "./spritesheet.png", {
     sliceX: 39,
     sliceY: 31,
     anims: {
-        "idle-down": 952,
-        "walk-down": { from: 952, to: 955, loop: true, speed: 8 },
-        "idle-side": 991,
-        "walk-side": { from: 991, to: 994, loop: true, speed: 8 },
-        "idle-up": 1030,
-        "walk-up": { from: 1030, to: 1033, loop: true, speed: 8 },
+        "idle-down": 964,
+        "walk-down": { from: 964, to: 967, loop: true, speed: 8 },
+        "idle-side": 1003,
+        "walk-side": { from: 1003, to: 1006, loop: true, speed: 8 },
+        "idle-up": 1042,
+        "walk-up": { from: 1042, to: 1045, loop: true, speed: 8 },
     }
 });
 
