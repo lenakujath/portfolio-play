@@ -1,4 +1,4 @@
-import { dialogueData, scaleFactor } from "./constants";
+import { scaleFactor } from "./constants";
 import { k } from "./kaplayCtx";
 import { displayDialogue, setCamScale } from "./utils";
 
@@ -62,7 +62,8 @@ const map = k.add([
           player.onCollide(boundary.name, () => {
             player.isInDialogue = true;
             displayDialogue(
-              dialogueData[boundary.name],
+              // dialogueData[boundary.name],
+              "This is our dialogue",
               () => (player.isInDialogue = false)
             );
           });
