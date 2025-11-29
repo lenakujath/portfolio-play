@@ -1,4 +1,4 @@
-import { scaleFactor } from "./constants";
+import { scaleFactor, dialogueData } from "./constants";
 import { k } from "./kaplayCtx";
 import { displayDialogue, setCamScale } from "./utils";
 
@@ -17,7 +17,7 @@ k.loadSprite("spritesheet", "./spritesheet.png", {
 
 k.loadSprite("map", "./map.png");
 
-k.setBackground(k.Color.fromHex("#45494c"));
+k.setBackground(k.Color.fromHex("#311047"));
 
 k.scene("main", async () => {
   const mapData = await (await fetch("./map.json")).json();
@@ -62,8 +62,7 @@ const map = k.add([
           player.onCollide(boundary.name, () => {
             player.isInDialogue = true;
             displayDialogue(
-              // dialogueData[boundary.name],
-              "This is our dialogue",
+              dialogueData[boundary.name],
               () => (player.isInDialogue = false)
             );
           });
