@@ -2,12 +2,12 @@ export const scaleFactor = 4;
 
 export const dialogueData = {
   pc: `As a programmer, naturally this is where most of my work takes place. Since I work in web development, I am mostly familiar with 
-        JavaScript and some of its popular libraries and I also worked with PHP and some Content Management Systems like WordPress, which 
-        rely on it. I also think it's important to never neglect the basic in web dev, so regularyly brushing up on my HTML and CSS knwoledge
-        and keeping up to date is crucial. 
-        Besides it being my day job coding is just a fun and rewarding activity, that's one of the reasons I created this site. 
-        Here you can checkout my <a href="https://github.com/lenakujath" target="_blank">Github</a>, if you want to browse through some
-        of my code!`,
+        JavaScript and some of its popular libraries. I also worked with PHP and some Content Management Systems like WordPress, which 
+        rely on it. I also think it's important to not forget about the very fundamentals in web dev, so regularyly brushing up on HTML and CSS knwoledge
+        and keeping up to date is crucial as well. 
+        Besides it being my day job, coding is also just a fun and rewarding activity for me, that's one of the reasons I created this site. 
+        You can checkout some of my "leisure" code on <a href="https://github.com/lenakujath" target="_blank">Github</a>, feel free to browse 
+        through!`,
   desk: `Even if I did not ending up working in a field directly related to my studies (arts, music and media), I am glad I chose 
                     and finished it successfully. Besides learning some valuable meta skills like organizing my time and gaining an understanding of a previously 
                     unknown field, I really enjoyed being surrounded by like minded people and to deepen my knowledge in the respective topics.
