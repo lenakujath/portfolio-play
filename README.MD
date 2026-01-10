@@ -22,5 +22,5 @@ Note: You need `Node.js` and `npm` installed on your machine.
 
 # How to host
 
-I'm reffering you to the guide ind JSLegendDev's repo: https://github.com/JSLegendDev/2d-portfolio-kaboom/blob/master/HOW_TO_DEPLOY.MD.
+I'm reffering you to the guide in JSLegendDev's repo: https://github.com/JSLegendDev/2d-portfolio-kaboom/blob/master/HOW_TO_DEPLOY.MD.
 
