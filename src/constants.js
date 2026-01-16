@@ -27,13 +27,13 @@ export const dialogueData = {
         moments I'm most relaxed. You can probably relate :)
          I often keep some notebooks next to my bed, so these ideas don't get lost, as they unfortunately do so often.`,
   bag: `It's important to always be prepared, so I keep my bag ready and packed!`,
-  fridge: `I love as much to eat as the next person so it's important to me to have my fridge filled with ingredients to prepare
-            a delious meal. I also enjoy eating it a lot to eat out with friends and family.`,
+  fridge: `I love good food and I love to prepare it, so it's important to me to have my fridge filled with ingredients that make
+            a delicious meal. I also enjoy eating out with friends and family regulary.`,
   guestbed: `I love being surrounded by my friends and to have them over. There is always a place for them to stay in my flat.`,  
   garden: `Programming and computers are nice, but it's also important to get some fresh air. I am a big fan of just strolling around 
             outside, be it in the city or in nature.`,
-  bookshelf: `I always loved to read, from childhood on. I like to read books to learn things of course, but doing it just for the
-                  enjoyment of it is just as valid for me.`,
+  bookshelf: `I always loved to read, from childhood on. Books are great to learn things of course, but doing it just for
+                  enjoyment is at least as valid to me.`,
   exit: `"You can checkout any time you like...BUT YOU CAN NEVER LEAVE" - Just kidding, if you want to exit this site, just close 
            your current tab.`,
 };
