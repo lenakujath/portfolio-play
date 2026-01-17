@@ -1,4 +1,4 @@
-const screenSize = window.screen.width;
+export const screenSize = window.screen.width;
 export const scaleFactor = screenSize <= 540 ? 2 : 4;
 
 export const dialogueData = {
