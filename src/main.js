@@ -1,4 +1,4 @@
-import { scaleFactor, dialogueData } from "./constants";
+import { scaleFactor, dialogueData, screenSize } from "./constants";
 import { k } from "./kaplayCtx";
 import { displayDialogue, setCamScale } from "./utils";
 
@@ -39,7 +39,7 @@ const map = k.add([
     k.pos(),
     k.scale(scaleFactor),
     {
-      speed: 250,
+      speed: screenSize <= 540 ? 150 : 250,
       direction: "down",
       isInDialogue: false,
     },
