@@ -1,4 +1,5 @@
-export const scaleFactor = 4;
+const screenSize = window.screen.width;
+export const scaleFactor = screenSize <= 540 ? 2 : 4;
 
 export const dialogueData = {
   pc: `As a programmer, naturally this is where most of my work takes place. Since I work in web development, I am mostly familiar with 
