@@ -1,6 +1,6 @@
 # Creatvie 2D portfolio type website
 
-I took JSLegendDev's original idea and implied my own version of how a 2d portfolio could look like to it.
+I took [JSLegendDev](https://github.com/JSLegendDev)'s original idea and implied my own version of how a 2d portfolio could look like to it.
 
 You can checkout a live demo at https://lenakujath.github.io/portfolio-play/.
 
