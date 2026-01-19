@@ -67,14 +67,31 @@
         left: 5%;
         bottom: 1vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        gap: 1rem;
         color: rgb(238, 238, 238);
         user-select: none;
       }
+
+      @media (max-width: 540px){
+        .note {
+          flex-direction: column;
+          gap: 0;
+        }
+        .note-top {
+          margin: 0
+        }
+        .note-bottom {
+          margin-top: 0;
+        }
+    }
     </style>
     <div id="app">
       <div id="ui">
-        <p class="note">Tap/Click around to move</p>
+        <div class="note">
+          <p class="note-top">click around</p>
+          <p class="note-bottom">to move</p>
+        </div>
         <div id="textbox-container" style="display: none">
           <div class="textbox">
             <p id="dialogue" class="ui-text"></p>
