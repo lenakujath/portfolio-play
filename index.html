@@ -66,7 +66,7 @@
       .note {
         position: absolute;
         left: 5%;
-        bottom: 1vh;
+        bottom: 10vh;
         display: flex;
         flex-direction: row;
         gap: 1rem;
@@ -74,9 +74,14 @@
         user-select: none;
       }
 
+      .mobile {
+        display: none;
+      }
+
       @media (max-width: 540px){
         .note {
           flex-direction: column;
+          bottom: 1vh;
           gap: 0;
         }
         .note-top {
@@ -85,13 +90,20 @@
         .note-bottom {
           margin-top: 0;
         }
+        .desktop {
+          display: none;
+        }
+        .mobile {
+          display: block;
+        }
     }
       
     </style>
     <div id="app">
       <div id="ui">
         <div class="note">
-          <p class="note-top">click around</p>
+          <p class="note-top desktop">Click around/use keyboard</p>
+          <p class="note-top mobile">Tap around</p>
           <p class="note-bottom">to move</p>
         </div>
         <div id="textbox-container" style="display: none">
