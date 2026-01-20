@@ -62,10 +62,10 @@
         margin-top: 1rem;
       }
 
-      .note {
+       .note {
         position: absolute;
         left: 5%;
-        bottom: 1vh;
+        bottom: 10vh;
         display: flex;
         flex-direction: row;
         gap: 1rem;
@@ -73,9 +73,14 @@
         user-select: none;
       }
 
+      .mobile {
+        display: none;
+      }
+
       @media (max-width: 540px){
         .note {
           flex-direction: column;
+          bottom: 1vh;
           gap: 0;
         }
         .note-top {
@@ -83,6 +88,12 @@
         }
         .note-bottom {
           margin-top: 0;
+        }
+        .desktop {
+          display: none;
+        }
+        .mobile {
+          display: block;
         }
     }
     </style>
