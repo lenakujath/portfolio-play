@@ -12,6 +12,15 @@ Note: You need `Node.js` and `npm` installed on your machine.
 
 `npm install` then `npm run dev`
 
+Use the `local` branch in this repo or manually set your vite configuration in `vite.config.js` as the following:
+
+```
+defineConfig({
+    base: "/",
+    ...
+})
+```
+
 ## How to build
 
 `npm run build` and a dist folder should be created.
