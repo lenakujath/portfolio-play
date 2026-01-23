@@ -25,10 +25,10 @@ export const dialogueData = {
              `,
       sofa: `After a full day I like to relax on the sofa and maybe listen to music, play my guitar or watch a good movie.`,
       tv:   `
-            I rarely browse through regular tv but I do enjoy a good movie or a great series. I am also a big fan of learning
-            about new things by watching some cool channels on youtube. To create games with JavaScript 
+            I rarely browse through regular tv programs but I do enjoy a good movie or a great series. I am also a big fan of learning
+            about new things by watching interesting channels on youtube. To create games with JavaScript 
             <a href="https://youtube.com/@jslegenddev" target="_blank">JSLegendDev</a> is an excellent resource. It's how I learned 
-            how to use Kaplay to create this website :).
+            to use Kaplay to create this website :).
             `,
       bed: `
             Rest is important, so I try to get enough of it every night. Sometimes the solution to a problem presents itself in the
