@@ -3,12 +3,11 @@ export const scaleFactor = screenSize <= 540 ? 3 : 4;
 
 export const dialogueData = {
       pc: `
-            As a programmer, naturally this is where most of my work takes place. Since I work in web development, I am mostly familiar with 
+            With regards to web dev I am mostly familiar with 
             JavaScript and some of its popular libraries. I also worked with PHP and some Content Management Systems like WordPress, which 
             rely on it. I also think it's important to not forget about the very fundamentals of web dev, 
             so regularyly brushing up on HTML and CSS knwoledge
             and keeping up to date is crucial. 
-            Besides it being my day job, coding is also just a fun and rewarding activity for me, that's one of the reasons I created this site. 
             You can checkout some of my "leisure" code on <a href="https://github.com/lenakujath" target="_blank">Github</a>, 
             feel free to browse 
             through!
@@ -42,8 +41,7 @@ export const dialogueData = {
             `,
       guestbed: `I love being surrounded by my friends and to have them over. There is always a place for them to stay in my flat.`,  
       garden: `
-            Programming and computers are nice, but it's also important to get some fresh air. I am a big fan of just strolling around 
-            outside, be it in the city or in nature.
+            Innie stuff is nice, but the outie in you probably craves some fresh air from time to time.
             `,
       bookshelf: `
             I always loved to read, from childhood on. Books are great to learn things of course, but doing it just for
