@@ -3,14 +3,8 @@ export const scaleFactor = screenSize <= 540 ? 3 : 4;
 
 export const dialogueData = {
       pc: `
-            With regards to web dev I am mostly familiar with 
-            JavaScript and some of its popular libraries. I also worked with PHP and some Content Management Systems like WordPress, which 
-            rely on it. I also think it's important to not forget about the very fundamentals of web dev, 
-            so regularyly brushing up on HTML and CSS knwoledge
-            and keeping up to date is crucial. 
-            You can checkout some of my "leisure" code on <a href="https://github.com/lenakujath" target="_blank">Github</a>, 
-            feel free to browse 
-            through!
+            I started my web dev journey with JavaScript, you can probably see its influence when scanning my code. I also worked with PHP though 
+            and especially nowadays think it's important to consider what tool makes the most sense to tackle a specific development issue. 
             `,
       desk: `
             Even if I did not ending up working in a field directly related to my studies (arts, music and media), I am glad I chose 
