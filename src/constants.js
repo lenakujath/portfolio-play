@@ -42,7 +42,7 @@ export const dialogueData = {
             enjoyment is at least as valid to me.
             `,
       exit: `
-            "You can checkout any time you like...BUT YOU CAN NEVER LEAVE" - Just kidding, if you want to exit this site, just close 
+            "You can checkout any time you like...BUT YOU CAN NEVER LEAVE!" (Eagles. "Hotel California". ~ 04:14). Just kidding, if you want to exit this site, just close 
             your current tab.
             `,
 };
