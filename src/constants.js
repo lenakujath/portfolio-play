@@ -7,14 +7,10 @@ export const dialogueData = {
             and especially nowadays think it's important to consider what tool makes the most sense to tackle a specific development issue. 
             `,
       desk: `
-            Even if I did not ending up working in a field directly related to my studies (arts, music and media), I am glad I chose 
-            and finished it successfully. Besides learning some valuable meta skills like organizing my time and gaining 
-            an understanding of a previously 
-            unknown field, I really enjoyed being surrounded by like minded people and to deepen my knowledge in the respective 
-            topics.
-            Later, when I took on developing software, I even noticed some similarities in the way my brain works 
-            when putting together some 
-            code and analzing or arranging music.
+            Even if the work I did so far was not always related to the subjects I studied (arts, music and media), I am glad I chose 
+            and finished my degree. Besides learning some valuable meta skills like organizing my time and gaining 
+            an understanding of previously unfamiliar stuff, I really enjoyed being surrounded by like minded people and learning about the 
+            different topics.
              `,
       sofa: `After a full day I like to relax on the sofa and maybe listen to music, play my guitar or watch a good movie.`,
       tv:   `
