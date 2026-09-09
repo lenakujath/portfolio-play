@@ -1,4 +1,4 @@
-# Creatvie 2D portfolio type website
+# Creative 2D portfolio type website
 
 I took [JSLegendDev](https://github.com/JSLegendDev)'s original idea and implied my own version of how a 2d portfolio could look like to it.
 
